@@ -39,7 +39,7 @@ Exemple (sans rapport avec ce projet) :
   - Si l'on quitte le formulaire pendant l'envoi et que la réservation échoue, aucun message n'apparaît : le cas est rare et demanderait de revoir l'affichage des erreurs de cet écran.
   - La touche Entrée dans le champ e-mail ne valide pas le formulaire : c'est une amélioration d'ergonomie, le bouton de confirmation fonctionne.
   - Le `http.Client` de `ApiService` n'est jamais fermé : le service vit aussi longtemps que l'application, sans effet visible.
-- Hors tableau, car non exigé par le comportement attendu : un livre réservé passe à « Emprunté » (avec une modification de `mediatech_api/serveur.py`) et la fiche reste ouverte si l'on quitte le formulaire pendant l'envoi.
+
 
 
 Hors tableau car non exigé par le comportement attendu : un livre réservé passe à « Emprunté » (avec une modification de mediatech_api/serveur.py)
